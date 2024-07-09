@@ -9,7 +9,7 @@ public class Generics {
 
     public static <T> int count(T arr[], T x)
     {
-        int count = 0;        //PUSH TO GITHUB!!!!
+        int count = 0;        
         for(T e : arr)
         {
             if(e.equals(x))
